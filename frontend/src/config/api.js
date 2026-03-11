@@ -4,7 +4,7 @@
 
 // API基础URL
 export const API_BASE_URL = import.meta.env.PROD 
-  ? '/api'  // 生产环境使用相对路径
+  ? 'https://graduate-project-backend.onrender.com/api'  // Render 后端地址
   : 'http://localhost:3000/api';  // 开发环境
 
 // 请求超时时间（毫秒）

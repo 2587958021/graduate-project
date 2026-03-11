@@ -3,8 +3,8 @@
 module.exports = {
     // 服务器配置
     server: {
-        port: 3000,
-        host: 'localhost'
+        port: process.env.PORT || 3000,
+        host: '0.0.0.0'
     },
 
     // JWT配置
@@ -16,7 +16,7 @@ module.exports = {
     // 跨域配置
     cors: {
         origin: process.env.NODE_ENV === 'production' 
-            ? ['https://your-frontend-domain.vercel.app']  // 替换为你的 Vercel 前端域名
+            ? ['https://graduate-project-frontend.onrender.com']  // Render 前端域名
             : ['http://localhost:5173', 'http://localhost:5174', 'http://127.0.0.1:5173', 'http://127.0.0.1:5174'],
         credentials: true,
         methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
