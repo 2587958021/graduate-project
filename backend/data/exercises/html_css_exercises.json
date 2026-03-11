@@ -1,0 +1,192 @@
+[
+  {
+    "title": "HTML无序列表",
+    "type": "single-choice",
+    "knowledgePoint": "HTML基础标签",
+    "content": "以下哪个HTML标签用于创建一个无序列表？",
+    "options": [
+      { "id": "A", "text": "<ol>" },
+      { "id": "B", "text": "<ul>" },
+      { "id": "C", "text": "<dl>" },
+      { "id": "D", "text": "<li>" }
+    ],
+    "answer": "B",
+    "explanation": "<ul> 是用于创建无序列表的HTML标签，而 <ol> 用于有序列表，<dl> 用于定义列表，<li> 用于列表项。",
+    "difficulty": "easy"
+  },
+  {
+    "title": "CSS固定定位",
+    "type": "single-choice",
+    "knowledgePoint": "CSS定位",
+    "content": "CSS中的`position: fixed;`会将元素如何定位？",
+    "options": [
+      { "id": "A", "text": "相对于父元素" },
+      { "id": "B", "text": "相对于视口" },
+      { "id": "C", "text": "相对于文档流" },
+      { "id": "D", "text": "相对于最近的已定位祖先元素" }
+    ],
+    "answer": "B",
+    "explanation": "position: fixed; 会将元素相对于视口定位。",
+    "difficulty": "medium"
+  },
+  {
+    "title": "CSS弹性布局方向",
+    "type": "single-choice",
+    "knowledgePoint": "CSS布局技巧",
+    "content": "CSS中的`flex-direction: column;`会如何排列子元素？",
+    "options": [
+      { "id": "A", "text": "水平排列" },
+      { "id": "B", "text": "垂直排列" },
+      { "id": "C", "text": "网格排列" },
+      { "id": "D", "text": "无排列" }
+    ],
+    "answer": "B",
+    "explanation": "flex-direction: column; 会使子元素垂直排列。",
+    "difficulty": "medium"
+  },
+  {
+    "title": "CSS选择器",
+    "type": "multiple-choice",
+    "knowledgePoint": "CSS选择器",
+    "content": "以下哪些CSS选择器可以用于选择类名为\"header\"的元素？",
+    "options": [
+      { "id": "A", "text": ".header" },
+      { "id": "B", "text": "#header" },
+      { "id": "C", "text": "div.header" },
+      { "id": "D", "text": "*header*" }
+    ],
+    "answer": ["A", "C"],
+    "explanation": ".header 是类选择器，div.header 是复合选择器。",
+    "difficulty": "medium"
+  },
+  {
+    "title": "CSS布局属性",
+    "type": "multiple-choice",
+    "knowledgePoint": "CSS布局技巧",
+    "content": "以下哪些CSS属性可以用于布局？",
+    "options": [
+      { "id": "A", "text": "float" },
+      { "id": "B", "text": "position" },
+      { "id": "C", "text": "display" },
+      { "id": "D", "text": "color" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "float, position, display 都可以用于布局。",
+    "difficulty": "medium"
+  },
+  {
+    "title": "CSS响应式设计属性",
+    "type": "multiple-choice",
+    "knowledgePoint": "响应式设计",
+    "content": "以下哪些CSS属性可以用于响应式设计？",
+    "options": [
+      { "id": "A", "text": "flex" },
+      { "id": "B", "text": "grid" },
+      { "id": "C", "text": "media queries" },
+      { "id": "D", "text": "viewport" }
+    ],
+    "answer": ["A", "B", "C", "D"],
+    "explanation": "这些属性都可以用于响应式设计。",
+    "difficulty": "hard"
+  },
+  {
+    "title": "CSS绝对定位参考点",
+    "type": "true-false",
+    "knowledgePoint": "CSS定位",
+    "content": "CSS中的`position: absolute;`会将元素相对于最近的已定位祖先元素定位。",
+    "answer": true,
+    "explanation": "position: absolute; 会将元素相对于最近的已定位（position 不为 static）的祖先元素定位。",
+    "difficulty": "medium"
+  },
+  {
+    "title": "HTML标签闭合",
+    "type": "true-false",
+    "knowledgePoint": "HTML基础标签",
+    "content": "HTML中的所有标签都必须闭合。",
+    "answer": false,
+    "explanation": "HTML中有些标签是自闭合的，比如 <img>, <br>, <hr> 等。",
+    "difficulty": "easy"
+  },
+  {
+    "title": "CSS弹性布局响应式",
+    "type": "true-false",
+    "knowledgePoint": "CSS布局技巧",
+    "content": "CSS中的`flex`布局可以用于创建响应式设计。",
+    "answer": true,
+    "explanation": "flex 布局可以用于创建灵活的响应式设计。",
+    "difficulty": "medium"
+  },
+  {
+    "title": "CSS盒模型",
+    "type": "short-answer",
+    "knowledgePoint": "CSS基础",
+    "content": "解释CSS中的`box-sizing`属性的作用。",
+    "answer": "box-sizing 属性定义了元素的总宽度和高度是否包括内边距和边框。box-sizing: content-box;（默认值）表示宽度和高度仅适用于内容区域，而 box-sizing: border-box; 表示宽度和高度包括内边距和边框。",
+    "difficulty": "medium"
+  },
+  {
+    "title": "CSS z-index属性",
+    "type": "short-answer",
+    "knowledgePoint": "CSS定位",
+    "content": "解释CSS中的`z-index`属性的作用。",
+    "answer": "z-index 属性控制定位元素的堆叠顺序。数值越大，元素越靠上显示。只有当元素的position属性不是static时，z-index 才生效。",
+    "difficulty": "medium"
+  },
+  {
+    "title": "水平居中CSS",
+    "type": "code-completion",
+    "knowledgePoint": "CSS布局技巧",
+    "content": "补全以下CSS代码，使元素水平居中。\n```css\n.container {\n  width: 300px;\n  margin: ______;\n}\n```",
+    "answer": "0 auto",
+    "explanation": "margin: 0 auto; 用于水平居中块级元素。",
+    "difficulty": "easy"
+  },
+  {
+    "title": "垂直居中CSS",
+    "type": "code-completion",
+    "knowledgePoint": "CSS布局技巧",
+    "content": "补全以下CSS代码，使元素垂直居中。\n```css\n.container {\n  display: ______;\n  justify-content: center;\n  align-items: center;\n}\n```",
+    "answer": "flex",
+    "explanation": "使用 flex 布局可以轻松实现垂直居中。",
+    "difficulty": "medium"
+  },
+  {
+    "title": "HTML链接属性",
+    "type": "code-completion",
+    "knowledgePoint": "HTML基础标签",
+    "content": "补全以下HTML代码，使其创建一个链接。\n```html\n<a ______=\"https://example.com\">Visit Example</a>\n```",
+    "answer": "href",
+    "explanation": "href 属性用于指定链接的目标URL。",
+    "difficulty": "easy"
+  },
+  {
+    "title": "前端性能优化",
+    "type": "interview",
+    "knowledgePoint": "前端优化",
+    "content": "如何优化前端性能？",
+    "answer": "减少HTTP请求：合并CSS和JavaScript文件，使用CSS Sprites。\n使用CDN：将静态资源部署到CDN以加快加载速度。\n启用Gzip压缩：减少传输数据的大小。\n延迟加载：将非关键资源的加载延迟到页面加载完成后。\n使用缓存策略：设置合适的HTTP缓存头。",
+    "explanation": "这些方法可以显著提高前端应用的加载速度和性能。",
+    "difficulty": "hard"
+  },
+  {
+    "title": "响应式布局实现",
+    "type": "interview",
+    "knowledgePoint": "响应式设计",
+    "content": "如何实现一个简单的响应式布局？",
+    "answer": "使用flex或grid布局。\n使用媒体查询（@media）针对不同屏幕尺寸调整样式。\n使用相对单位（如%，vw，vh）而不是固定单位。",
+    "explanation": "响应式布局确保网站在不同设备上都能良好显示。",
+    "difficulty": "medium"
+  },
+  {
+    "title": "轮播图实现",
+    "type": "interview",
+    "knowledgePoint": "CSS与JavaScript",
+    "content": "如何实现一个简单的轮播图？",
+    "answer": "使用CSS的position属性定位图片。\n使用JavaScript控制图片的显示和隐藏。\n使用定时器（setInterval）实现自动轮播。\n提供左右切换按钮。",
+    "explanation": "轮播图是常见的前端组件，通过CSS和JavaScript可以实现基本功能。",
+    "difficulty": "hard"
+  }
+]
+
+
+

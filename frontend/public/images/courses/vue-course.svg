@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" fill="#42b883"/>
+  <rect width="800" height="450" fill="url(#grad)"/>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#42b883;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#35495e;stop-opacity:0.7" />
+    </linearGradient>
+  </defs>
+  <text x="400" y="180" font-family="Arial" font-size="72" font-weight="bold" fill="white" text-anchor="middle">Vue2+3</text>
+  <text x="400" y="260" font-family="Arial" font-size="36" fill="white" text-anchor="middle">入门到实战教程</text>
+  <g fill="white" opacity="0.8">
+    <path d="M400,300 L430,350 L370,350 L400,300 Z" />
+    <path d="M400,320 L415,350 L385,350 L400,320 Z" transform="translate(-50,0)" fill="#35495e"/>
+    <path d="M400,320 L415,350 L385,350 L400,320 Z" transform="translate(50,0)" fill="#35495e"/>
+  </g>
+</svg> 

@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "course_1749659502588",
+    "title": "黑马程序员前端项目uniapp小兔鲜儿微信小程序项目视频教程，基于Vue3+Ts+Pinia+uni-app的最新组合技术栈开发的电商业务全流程",
+    "description": "",
+    "category": "其他",
+    "level": "初级",
+    "tags": [],
+    "coverImage": "http://i2.hdslb.com/bfs/archive/beec8eb4ca1ec71f130c55a16691a5d6fde9f1e9.jpg",
+    "isPublished": true,
+    "createdAt": "2025-06-11T16:31:42.588Z",
+    "chapters": [
+      {
+        "_id": "chapter-1",
+        "title": "第一章",
+        "description": "自动从B站视频创建的章节",
+        "order": 1,
+        "lessons": [
+          {
+            "_id": "lesson-1-1",
+            "description": "第1课时",
+            "bvid": "BV1Bp4y1379L",
+            "page": 1,
+            "order": 1,
+            "duration": 655,
+            "embedCode": "<div class=\"video-link-container\"><a href=\"https://www.bilibili.com/video/BV1Bp4y1379L?p=1\" target=\"_blank\" class=\"video-link\">在B站观看视频 <i class=\"bi bi-box-arrow-up-right\"></i></a></div>"
+          },
+          {
+            "_id": "lesson-1-2",
+            "description": "第2课时",
+            "bvid": "BV1Bp4y1379L",
+            "page": 2,
+            "order": 2,
+            "duration": 873,
+            "embedCode": "<div class=\"video-link-container\"><a href=\"https://www.bilibili.com/video/BV1Bp4y1379L?p=2\" target=\"_blank\" class=\"video-link\">在B站观看视频 <i class=\"bi bi-box-arrow-up-right\"></i></a></div>"
+          }
+        ]
+      }
+    ],
+    "updatedAt": "2025-06-11T16:31:56.566Z"
+  }
+]

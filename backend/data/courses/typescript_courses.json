@@ -1,0 +1,41 @@
+[
+  {
+    "_id": "course_1748859505183",
+    "title": "禹神：三小时快速上手TypeScript，TS速通教程",
+    "description": "【视频配套资料】关注公众号：尚硅谷教育，回复“视频资料”免费获取",
+    "category": "typescript",
+    "level": "初级",
+    "tags": [],
+    "coverImage": "http://i2.hdslb.com/bfs/archive/0495cfb928e6e0025048b92ee9bf23c959507e22.png",
+    "isPublished": true,
+    "createdAt": "2025-06-02T10:18:25.183Z",
+    "chapters": [
+      {
+        "_id": "chapter-1",
+        "title": "第一章",
+        "description": "自动从B站视频创建的章节",
+        "order": 1,
+        "lessons": [
+          {
+            "_id": "lesson-1-1",
+            "description": "第1课时",
+            "bvid": "BV1YS411w7Bf",
+            "page": 1,
+            "order": 1,
+            "duration": 3519,
+            "embedCode": "<div class=\"video-link-container\"><a href=\"https://www.bilibili.com/video/BV1YS411w7Bf?p=1\" target=\"_blank\" class=\"video-link\">在B站观看视频 <i class=\"bi bi-box-arrow-up-right\"></i></a></div>"
+          },
+          {
+            "_id": "lesson-1-2",
+            "description": "第2课时",
+            "bvid": "BV1YS411w7Bf",
+            "page": 2,
+            "order": 2,
+            "duration": 3882,
+            "embedCode": "<div class=\"video-link-container\"><a href=\"https://www.bilibili.com/video/BV1YS411w7Bf?p=2\" target=\"_blank\" class=\"video-link\">在B站观看视频 <i class=\"bi bi-box-arrow-up-right\"></i></a></div>"
+          }
+        ]
+      }
+    ]
+  }
+]

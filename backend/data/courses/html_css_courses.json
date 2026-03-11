@@ -1,0 +1,41 @@
+[
+  {
+    "_id": "course_1748704206127",
+    "title": "尚硅谷前端入门html+css零基础教程，零基础前端开发html5+css3视频",
+    "description": "暂无描述",
+    "category": "html_css",
+    "level": "初级",
+    "tags": [],
+    "coverImage": "http://i2.hdslb.com/bfs/archive/d63df7153d252d48583f080f00d982118a1ceee4.jpg",
+    "isPublished": true,
+    "createdAt": "2025-05-31T15:10:06.127Z",
+    "chapters": [
+      {
+        "_id": "chapter-1",
+        "title": "第一章",
+        "description": "自动从B站视频创建的章节",
+        "order": 1,
+        "lessons": [
+          {
+            "_id": "lesson-1-1",
+            "description": "第1课时",
+            "bvid": "BV1p84y1P7Z5",
+            "page": 1,
+            "order": 1,
+            "duration": 380,
+            "embedCode": "<div class=\"video-link-container\"><a href=\"https://www.bilibili.com/video/BV1p84y1P7Z5?p=1\" target=\"_blank\" class=\"video-link\">在B站观看视频 <i class=\"bi bi-box-arrow-up-right\"></i></a></div>"
+          },
+          {
+            "_id": "lesson-1-2",
+            "description": "第2课时",
+            "bvid": "BV1p84y1P7Z5",
+            "page": 2,
+            "order": 2,
+            "duration": 355,
+            "embedCode": "<div class=\"video-link-container\"><a href=\"https://www.bilibili.com/video/BV1p84y1P7Z5?p=2\" target=\"_blank\" class=\"video-link\">在B站观看视频 <i class=\"bi bi-box-arrow-up-right\"></i></a></div>"
+          }
+        ]
+      }
+    ]
+  }
+]

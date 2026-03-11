@@ -1,0 +1,387 @@
+[
+  {
+    "title": "Vue条件渲染指令",
+    "type": "single-choice",
+    "knowledgePoint": "Vue基础",
+    "content": "在Vue中，以下哪个指令用于条件渲染？",
+    "options": [
+      { "id": "A", "text": "v-if" },
+      { "id": "B", "text": "v-for" },
+      { "id": "C", "text": "v-bind" },
+      { "id": "D", "text": "v-model" }
+    ],
+    "answer": "A",
+    "explanation": "v-if 用于条件渲染，根据表达式的值动态地插入或移除DOM元素。",
+    "difficulty": "easy",
+    "category": "framework"
+  },
+  {
+    "title": "Vue循环渲染指令",
+    "type": "single-choice",
+    "knowledgePoint": "Vue基础",
+    "content": "在Vue中，以下哪个指令用于循环渲染？",
+    "options": [
+      { "id": "A", "text": "v-if" },
+      { "id": "B", "text": "v-for" },
+      { "id": "C", "text": "v-bind" },
+      { "id": "D", "text": "v-model" }
+    ],
+    "answer": "B",
+    "explanation": "v-for 用于循环渲染列表。",
+    "difficulty": "easy",
+    "category": "framework"
+  },
+  {
+    "title": "Vue事件绑定指令",
+    "type": "single-choice",
+    "knowledgePoint": "Vue基础",
+    "content": "在Vue中，以下哪个指令用于绑定事件？",
+    "options": [
+      { "id": "A", "text": "v-on" },
+      { "id": "B", "text": "v-bind" },
+      { "id": "C", "text": "v-model" },
+      { "id": "D", "text": "v-if" }
+    ],
+    "answer": "A",
+    "explanation": "v-on 用于绑定事件监听器。",
+    "difficulty": "easy",
+    "category": "framework"
+  },
+  {
+    "title": "Vue创建后生命周期",
+    "type": "single-choice",
+    "knowledgePoint": "Vue生命周期",
+    "content": "在Vue中，以下哪个生命周期钩子在实例创建完成后调用？",
+    "options": [
+      { "id": "A", "text": "created" },
+      { "id": "B", "text": "mounted" },
+      { "id": "C", "text": "updated" },
+      { "id": "D", "text": "destroyed" }
+    ],
+    "answer": "A",
+    "explanation": "created 生命周期钩子在实例创建完成后调用。",
+    "difficulty": "medium",
+    "category": "framework"
+  },
+  {
+    "title": "Vue更新状态方法",
+    "type": "single-choice",
+    "knowledgePoint": "Vue基础",
+    "content": "在Vue中，以下哪个方法用于更新组件的状态？",
+    "options": [
+      { "id": "A", "text": "this.update()" },
+      { "id": "B", "text": "this.setState()" },
+      { "id": "C", "text": "this.$set()" },
+      { "id": "D", "text": "this.$update()" }
+    ],
+    "answer": "C",
+    "explanation": "this.$set() 用于更新组件的状态。",
+    "difficulty": "medium",
+    "category": "framework"
+  },
+  {
+    "title": "React卸载组件方法",
+    "type": "single-choice",
+    "knowledgePoint": "React生命周期",
+    "content": "在React中，以下哪个方法用于组件卸载时的清理工作？",
+    "options": [
+      { "id": "A", "text": "componentDidMount" },
+      { "id": "B", "text": "componentWillUnmount" },
+      { "id": "C", "text": "componentDidUpdate" },
+      { "id": "D", "text": "componentWillReceiveProps" }
+    ],
+    "answer": "B",
+    "explanation": "componentWillUnmount 用于组件卸载时的清理工作。",
+    "difficulty": "medium",
+    "category": "framework"
+  },
+  {
+    "title": "React组件挂载方法",
+    "type": "single-choice",
+    "knowledgePoint": "React生命周期",
+    "content": "在React中，以下哪个方法用于组件挂载后的初始化工作？",
+    "options": [
+      { "id": "A", "text": "componentDidMount" },
+      { "id": "B", "text": "componentWillUnmount" },
+      { "id": "C", "text": "componentDidUpdate" },
+      { "id": "D", "text": "componentWillReceiveProps" }
+    ],
+    "answer": "A",
+    "explanation": "componentDidMount 用于组件挂载后的初始化工作。",
+    "difficulty": "medium",
+    "category": "framework"
+  },
+  {
+    "title": "React状态设置方法",
+    "type": "single-choice",
+    "knowledgePoint": "React基础",
+    "content": "在React中，以下哪个方法用于设置组件的状态？",
+    "options": [
+      { "id": "A", "text": "this.setState()" },
+      { "id": "B", "text": "this.updateState()" },
+      { "id": "C", "text": "this.state = {}" },
+      { "id": "D", "text": "this.changeState()" }
+    ],
+    "answer": "A",
+    "explanation": "this.setState() 用于设置组件的状态。",
+    "difficulty": "easy",
+    "category": "framework"
+  },
+  {
+    "title": "React强制渲染方法",
+    "type": "single-choice",
+    "knowledgePoint": "React基础",
+    "content": "在React中，以下哪个方法用于强制组件重新渲染？",
+    "options": [
+      { "id": "A", "text": "this.forceUpdate()" },
+      { "id": "B", "text": "this.update()" },
+      { "id": "C", "text": "this.render()" },
+      { "id": "D", "text": "this.reRender()" }
+    ],
+    "answer": "A",
+    "explanation": "this.forceUpdate() 用于强制组件重新渲染。",
+    "difficulty": "medium",
+    "category": "framework"
+  },
+  {
+    "title": "React事件监听方法",
+    "type": "single-choice",
+    "knowledgePoint": "React DOM",
+    "content": "在React中，以下哪个方法用于注册事件监听器？",
+    "options": [
+      { "id": "A", "text": "addEventListener" },
+      { "id": "B", "text": "onEvent" },
+      { "id": "C", "text": "attachEvent" },
+      { "id": "D", "text": "this.onEvent" }
+    ],
+    "answer": "A",
+    "explanation": "addEventListener 用于注册事件监听器。",
+    "difficulty": "easy",
+    "category": "framework"
+  },
+  {
+    "title": "Vue指令",
+    "type": "multiple-choice",
+    "knowledgePoint": "Vue基础",
+    "content": "以下哪些是Vue中的指令？",
+    "options": [
+      { "id": "A", "text": "v-if" },
+      { "id": "B", "text": "v-for" },
+      { "id": "C", "text": "v-bind" },
+      { "id": "D", "text": "v-model" }
+    ],
+    "answer": ["A", "B", "C", "D"],
+    "explanation": "这些都是Vue中的指令。",
+    "difficulty": "easy",
+    "category": "framework"
+  },
+  {
+    "title": "Vue生命周期钩子",
+    "type": "multiple-choice",
+    "knowledgePoint": "Vue生命周期",
+    "content": "以下哪些是Vue中的生命周期钩子？",
+    "options": [
+      { "id": "A", "text": "created" },
+      { "id": "B", "text": "mounted" },
+      { "id": "C", "text": "updated" },
+      { "id": "D", "text": "destroyed" }
+    ],
+    "answer": ["A", "B", "C", "D"],
+    "explanation": "这些都是Vue中的生命周期钩子。",
+    "difficulty": "medium",
+    "category": "framework"
+  },
+  {
+    "title": "Vue响应式数据",
+    "type": "multiple-choice",
+    "knowledgePoint": "Vue响应式系统",
+    "content": "以下哪些是Vue中的响应式数据？",
+    "options": [
+      { "id": "A", "text": "data" },
+      { "id": "B", "text": "props" },
+      { "id": "C", "text": "computed" },
+      { "id": "D", "text": "methods" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "data, props, computed 都是Vue中的响应式数据。",
+    "difficulty": "medium",
+    "category": "framework"
+  },
+  {
+    "title": "React生命周期方法",
+    "type": "multiple-choice",
+    "knowledgePoint": "React生命周期",
+    "content": "以下哪些是React中的生命周期方法？",
+    "options": [
+      { "id": "A", "text": "componentDidMount" },
+      { "id": "B", "text": "componentWillUnmount" },
+      { "id": "C", "text": "componentDidUpdate" },
+      { "id": "D", "text": "componentWillReceiveProps" }
+    ],
+    "answer": ["A", "B", "C", "D"],
+    "explanation": "这些都是React的生命周期方法。",
+    "difficulty": "medium",
+    "category": "framework"
+  },
+  {
+    "title": "React Hooks",
+    "type": "multiple-choice",
+    "knowledgePoint": "React Hooks",
+    "content": "以下哪些是React中的Hooks？",
+    "options": [
+      { "id": "A", "text": "useState" },
+      { "id": "B", "text": "useEffect" },
+      { "id": "C", "text": "useContext" },
+      { "id": "D", "text": "useReducer" }
+    ],
+    "answer": ["A", "B", "C", "D"],
+    "explanation": "这些都是React中的Hooks。",
+    "difficulty": "medium",
+    "category": "framework"
+  },
+  {
+    "title": "Vue v-model限制",
+    "type": "true-false",
+    "knowledgePoint": "Vue基础",
+    "content": "Vue中的v-model只能用于表单输入元素。",
+    "answer": false,
+    "explanation": "v-model 可以用于任何支持value属性和input事件的元素。",
+    "difficulty": "medium",
+    "category": "framework"
+  },
+  {
+    "title": "Vue v-if和v-show区别",
+    "type": "true-false",
+    "knowledgePoint": "Vue基础",
+    "content": "Vue中的v-if和v-show的区别在于v-if会移除DOM元素，而v-show只是隐藏DOM元素。",
+    "answer": true,
+    "explanation": "v-if 是条件渲染，根据表达式的值动态地插入或移除DOM元素。v-show 则是通过CSS的display属性来切换元素的显示和隐藏，不会移除DOM元素。",
+    "difficulty": "medium",
+    "category": "framework"
+  },
+  {
+    "title": "Vue v-for用途",
+    "type": "true-false",
+    "knowledgePoint": "Vue基础",
+    "content": "Vue中的v-for指令可以用于渲染列表。",
+    "answer": true,
+    "explanation": "v-for 指令用于循环渲染列表。",
+    "difficulty": "easy",
+    "category": "framework"
+  },
+  {
+    "title": "React state不可变性",
+    "type": "true-false",
+    "knowledgePoint": "React基础",
+    "content": "React中的state是不可变的。",
+    "answer": true,
+    "explanation": "React中的state是不可直接修改的，需要通过setState方法更新。",
+    "difficulty": "medium",
+    "category": "framework"
+  },
+  {
+    "title": "React props只读性",
+    "type": "true-false",
+    "knowledgePoint": "React基础",
+    "content": "React中的props是只读的。",
+    "answer": true,
+    "explanation": "props 是父组件传递给子组件的属性，子组件不能直接修改。",
+    "difficulty": "easy",
+    "category": "framework"
+  },
+  {
+    "title": "Vue computed和watch区别",
+    "type": "short-answer",
+    "knowledgePoint": "Vue计算属性",
+    "content": "解释Vue中的computed属性和watch属性的区别。",
+    "answer": "computed 属性是基于其依赖进行缓存的，只有当依赖发生改变时才会重新计算。watch 属性用于观察某个数据的变化，并执行相应的回调函数，适合执行异步操作或开销较大的操作。",
+    "difficulty": "hard",
+    "category": "framework"
+  },
+  {
+    "title": "Vue响应式系统",
+    "type": "short-answer",
+    "knowledgePoint": "Vue响应式系统",
+    "content": "什么是Vue中的响应式系统？",
+    "answer": "Vue的响应式系统通过Object.defineProperty方法，为对象的每个属性添加getter和setter，从而实现数据的双向绑定和响应式更新。",
+    "difficulty": "hard",
+    "category": "framework"
+  },
+  {
+    "title": "Vue v-if和v-show区别详解",
+    "type": "short-answer",
+    "knowledgePoint": "Vue基础",
+    "content": "解释Vue中的v-if和v-show的区别。",
+    "answer": "v-if 是条件渲染，根据表达式的值动态地插入或移除DOM元素。v-show 则是通过CSS的display属性来切换元素的显示和隐藏，不会移除DOM元素。",
+    "difficulty": "medium",
+    "category": "framework"
+  },
+  {
+    "title": "React useState和useEffect区别",
+    "type": "short-answer",
+    "knowledgePoint": "React Hooks",
+    "content": "解释React中的useState和useEffect的区别。",
+    "answer": "useState 用于在函数组件中声明状态变量，而 useEffect 用于处理副作用操作，如数据获取、订阅等。",
+    "difficulty": "medium",
+    "category": "framework"
+  },
+  {
+    "title": "React key属性",
+    "type": "short-answer",
+    "knowledgePoint": "React基础",
+    "content": "什么是React中的key属性？",
+    "answer": "key 属性用于标识列表中的唯一项，帮助React高效地更新DOM。",
+    "difficulty": "easy",
+    "category": "framework"
+  },
+  {
+    "title": "Vue绑定点击事件",
+    "type": "code-completion",
+    "knowledgePoint": "Vue事件处理",
+    "content": "补全以下Vue代码，使其绑定一个点击事件。\n```javascript\n<template>\n  <button ______=\"handleClick\">Click Me</button>\n</template>\n\n<script>\nexport default {\n  methods: {\n    handleClick() {\n      console.log('Button clicked');\n    }\n  }\n}\n</script>\n```",
+    "answer": "@click 或 v-on:click",
+    "explanation": "Vue中使用@click或v-on:click绑定点击事件。",
+    "difficulty": "easy",
+    "category": "framework"
+  },
+  {
+    "title": "Vue绑定类名",
+    "type": "code-completion",
+    "knowledgePoint": "Vue绑定",
+    "content": "补全以下Vue代码，使其绑定一个类名。\n```javascript\n<template>\n  <div :class=\"{ active: ______ }\">Hello World</div>\n</template>\n\n<script>\nexport default {\n  data() {\n    return {\n      isActive: true\n    };\n  }\n}\n</script>\n```",
+    "answer": "isActive",
+    "explanation": "使用v-bind:class绑定类名，根据isActive的值动态切换类。",
+    "difficulty": "medium",
+    "category": "framework"
+  },
+  {
+    "title": "Vue条件渲染",
+    "type": "code-completion",
+    "knowledgePoint": "Vue条件渲染",
+    "content": "补全以下Vue代码，使其绑定一个条件渲染。\n```javascript\n<template>\n  <div v-if=\"______\">Hello World</div>\n</template>\n\n<script>\nexport default {\n  data() {\n    return {\n      isVisible: true\n    };\n  }\n}\n</script>\n```",
+    "answer": "isVisible",
+    "explanation": "使用v-if指令绑定条件渲染。",
+    "difficulty": "easy",
+    "category": "framework"
+  },
+  {
+    "title": "React渲染列表",
+    "type": "code-completion",
+    "knowledgePoint": "React列表渲染",
+    "content": "补全以下React代码，使其渲染一个列表。\n```javascript\nfunction List() {\n  const items = ['Item 1', 'Item 2', 'Item 3'];\n  return (\n    <ul>\n      {items.map((item, index) => (\n        <li ______={index}>{item}</li>\n      ))}\n    </ul>\n  );\n}\n```",
+    "answer": "key",
+    "explanation": "在React中，列表项需要一个唯一的key属性。",
+    "difficulty": "easy",
+    "category": "framework"
+  },
+  {
+    "title": "React绑定点击事件",
+    "type": "code-completion",
+    "knowledgePoint": "React事件处理",
+    "content": "补全以下React代码，使其绑定一个点击事件。\n```javascript\nfunction Button() {\n  const handleClick = () => {\n    console.log('Button clicked');\n  };\n  return <button ______={handleClick}>Click Me</button>;\n}\n```",
+    "answer": "onClick",
+    "explanation": "使用onClick绑定点击事件。",
+    "difficulty": "easy",
+    "category": "framework"
+  }
+] 

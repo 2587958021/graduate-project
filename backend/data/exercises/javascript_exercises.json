@@ -1,0 +1,409 @@
+[
+  {
+    "title": "JavaScript事件监听器",
+    "type": "single-choice",
+    "knowledgePoint": "JavaScript DOM",
+    "content": "以下哪个方法用于在JavaScript中添加事件监听器？",
+    "options": [
+      { "id": "A", "text": "addEventListener()" },
+      { "id": "B", "text": "attachEvent()" },
+      { "id": "C", "text": "onEvent()" },
+      { "id": "D", "text": "bind()" }
+    ],
+    "answer": "A",
+    "explanation": "addEventListener() 是现代浏览器中用于添加事件监听器的标准方法。",
+    "difficulty": "easy",
+    "category": "javascript"
+  },
+  {
+    "title": "typeof null",
+    "type": "single-choice",
+    "knowledgePoint": "JavaScript基础",
+    "content": "typeof null 的返回值是什么？",
+    "options": [
+      { "id": "A", "text": "null" },
+      { "id": "B", "text": "object" },
+      { "id": "C", "text": "undefined" },
+      { "id": "D", "text": "string" }
+    ],
+    "answer": "B",
+    "explanation": "typeof null 返回 object，这是一个历史遗留问题。",
+    "difficulty": "medium",
+    "category": "javascript"
+  },
+  {
+    "title": "创建Promise",
+    "type": "single-choice",
+    "knowledgePoint": "JavaScript异步编程",
+    "content": "以下哪个方法用于在JavaScript中创建一个Promise？",
+    "options": [
+      { "id": "A", "text": "new Promise()" },
+      { "id": "B", "text": "Promise.create()" },
+      { "id": "C", "text": "Promise.new()" },
+      { "id": "D", "text": "Promise.init()" }
+    ],
+    "answer": "A",
+    "explanation": "new Promise() 用于创建一个Promise对象。",
+    "difficulty": "medium",
+    "category": "javascript"
+  },
+  {
+    "title": "获取时间戳",
+    "type": "single-choice",
+    "knowledgePoint": "JavaScript Date对象",
+    "content": "以下哪个方法用于在JavaScript中获取当前时间戳？",
+    "options": [
+      { "id": "A", "text": "Date.now()" },
+      { "id": "B", "text": "Date.getTime()" },
+      { "id": "C", "text": "Date.current()" },
+      { "id": "D", "text": "Date.timestamp()" }
+    ],
+    "answer": "A",
+    "explanation": "Date.now() 返回当前时间的时间戳。",
+    "difficulty": "easy",
+    "category": "javascript"
+  },
+  {
+    "title": "数组转字符串",
+    "type": "single-choice",
+    "knowledgePoint": "JavaScript数组",
+    "content": "以下哪个方法用于在JavaScript中将数组转换为字符串？",
+    "options": [
+      { "id": "A", "text": "toString()" },
+      { "id": "B", "text": "join()" },
+      { "id": "C", "text": "String()" },
+      { "id": "D", "text": "convertToString()" }
+    ],
+    "answer": "B",
+    "explanation": "join() 方法将数组的元素连接成一个字符串，可以指定分隔符。",
+    "difficulty": "easy",
+    "category": "javascript"
+  },
+  {
+    "title": "数组操作pop",
+    "type": "single-choice",
+    "knowledgePoint": "JavaScript数组",
+    "content": "以下哪个方法用于在JavaScript中移除数组的最后一个元素？",
+    "options": [
+      { "id": "A", "text": "pop()" },
+      { "id": "B", "text": "shift()" },
+      { "id": "C", "text": "unshift()" },
+      { "id": "D", "text": "remove()" }
+    ],
+    "answer": "A",
+    "explanation": "pop() 方法移除数组的最后一个元素并返回该元素。",
+    "difficulty": "easy",
+    "category": "javascript"
+  },
+  {
+    "title": "获取对象键名",
+    "type": "single-choice",
+    "knowledgePoint": "JavaScript对象",
+    "content": "以下哪个方法用于在JavaScript中获取对象的键名？",
+    "options": [
+      { "id": "A", "text": "keys()" },
+      { "id": "B", "text": "getKeys()" },
+      { "id": "C", "text": "Object.keys()" },
+      { "id": "D", "text": "getKeyNames()" }
+    ],
+    "answer": "C",
+    "explanation": "Object.keys() 方法返回一个包含对象自身所有可枚举属性的键名的数组。",
+    "difficulty": "medium",
+    "category": "javascript"
+  },
+  {
+    "title": "字符串转大写",
+    "type": "single-choice",
+    "knowledgePoint": "JavaScript字符串",
+    "content": "以下哪个方法用于在JavaScript中将字符串转换为大写？",
+    "options": [
+      { "id": "A", "text": "toUpperCase()" },
+      { "id": "B", "text": "toUpper()" },
+      { "id": "C", "text": "uppercase()" },
+      { "id": "D", "text": "convertToUpper()" }
+    ],
+    "answer": "A",
+    "explanation": "toUpperCase() 方法将字符串转换为大写。",
+    "difficulty": "easy",
+    "category": "javascript"
+  },
+  {
+    "title": "检查对象属性",
+    "type": "single-choice",
+    "knowledgePoint": "JavaScript对象",
+    "content": "以下哪个方法用于在JavaScript中检查对象是否具有某个属性？",
+    "options": [
+      { "id": "A", "text": "hasOwnProperty()" },
+      { "id": "B", "text": "hasProperty()" },
+      { "id": "C", "text": "checkProperty()" },
+      { "id": "D", "text": "propertyExists()" }
+    ],
+    "answer": "A",
+    "explanation": "hasOwnProperty() 方法检查对象是否具有指定的属性作为直接属性。",
+    "difficulty": "medium",
+    "category": "javascript"
+  },
+  {
+    "title": "获取URL参数",
+    "type": "single-choice",
+    "knowledgePoint": "JavaScript API",
+    "content": "以下哪个方法用于在JavaScript中获取URL参数？",
+    "options": [
+      { "id": "A", "text": "URLSearchParams()" },
+      { "id": "B", "text": "getParameter()" },
+      { "id": "C", "text": "getQueryString()" },
+      { "id": "D", "text": "getUrlParams()" }
+    ],
+    "answer": "A",
+    "explanation": "URLSearchParams 接口提供了处理URL查询字符串的能力。",
+    "difficulty": "medium",
+    "category": "javascript"
+  },
+  {
+    "title": "JavaScript数据类型",
+    "type": "multiple-choice",
+    "knowledgePoint": "JavaScript基础",
+    "content": "以下哪些是JavaScript中的数据类型？",
+    "options": [
+      { "id": "A", "text": "string" },
+      { "id": "B", "text": "number" },
+      { "id": "C", "text": "boolean" },
+      { "id": "D", "text": "symbol" },
+      { "id": "E", "text": "object" }
+    ],
+    "answer": ["A", "B", "C", "D", "E"],
+    "explanation": "JavaScript的基本数据类型包括 string, number, boolean, null, undefined, symbol，以及引用类型 object。",
+    "difficulty": "easy",
+    "category": "javascript"
+  },
+  {
+    "title": "数组操作方法",
+    "type": "multiple-choice",
+    "knowledgePoint": "JavaScript数组",
+    "content": "以下哪些方法可以用于数组操作？",
+    "options": [
+      { "id": "A", "text": "push()" },
+      { "id": "B", "text": "pop()" },
+      { "id": "C", "text": "shift()" },
+      { "id": "D", "text": "unshift()" }
+    ],
+    "answer": ["A", "B", "C", "D"],
+    "explanation": "push(), pop(), shift(), unshift() 都是数组操作方法。",
+    "difficulty": "easy",
+    "category": "javascript"
+  },
+  {
+    "title": "JavaScript异步操作",
+    "type": "multiple-choice",
+    "knowledgePoint": "JavaScript异步编程",
+    "content": "以下哪些是JavaScript中的异步操作？",
+    "options": [
+      { "id": "A", "text": "setTimeout" },
+      { "id": "B", "text": "Promise" },
+      { "id": "C", "text": "async/await" },
+      { "id": "D", "text": "for循环" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "setTimeout, Promise, async/await 都是JavaScript中的异步操作。",
+    "difficulty": "medium",
+    "category": "javascript"
+  },
+  {
+    "title": "对象遍历方法",
+    "type": "multiple-choice",
+    "knowledgePoint": "JavaScript对象",
+    "content": "以下哪些方法可以用于对象属性的遍历？",
+    "options": [
+      { "id": "A", "text": "for...in" },
+      { "id": "B", "text": "Object.keys()" },
+      { "id": "C", "text": "Object.values()" },
+      { "id": "D", "text": "forEach()" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "for...in, Object.keys(), Object.values() 都可以用于对象属性的遍历。",
+    "difficulty": "medium",
+    "category": "javascript"
+  },
+  {
+    "title": "JavaScript全局对象",
+    "type": "multiple-choice",
+    "knowledgePoint": "JavaScript基础",
+    "content": "以下哪些是JavaScript中的全局对象？",
+    "options": [
+      { "id": "A", "text": "Math" },
+      { "id": "B", "text": "Date" },
+      { "id": "C", "text": "JSON" },
+      { "id": "D", "text": "Array" }
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "Math, Date, JSON 都是JavaScript中的全局对象。",
+    "difficulty": "easy",
+    "category": "javascript"
+  },
+  {
+    "title": "比较运算符",
+    "type": "true-false",
+    "knowledgePoint": "JavaScript基础",
+    "content": "JavaScript中的`==`会进行类型转换，而`===`不会。",
+    "answer": true,
+    "explanation": "== 是宽松比较运算符，会进行类型转换；=== 是严格比较运算符，不会进行类型转换。",
+    "difficulty": "easy",
+    "category": "javascript"
+  },
+  {
+    "title": "变量作用域",
+    "type": "true-false",
+    "knowledgePoint": "JavaScript基础",
+    "content": "var 和 let 的作用域完全相同。",
+    "answer": false,
+    "explanation": "var 是函数作用域，而 let 是块级作用域。",
+    "difficulty": "medium",
+    "category": "javascript"
+  },
+  {
+    "title": "this关键字",
+    "type": "true-false",
+    "knowledgePoint": "JavaScript基础",
+    "content": "JavaScript中的this关键字总是指向全局对象。",
+    "answer": false,
+    "explanation": "this 的指向取决于调用上下文，比如在严格模式下，this 可能是 undefined。",
+    "difficulty": "medium",
+    "category": "javascript"
+  },
+  {
+    "title": "Promise状态",
+    "type": "true-false",
+    "knowledgePoint": "JavaScript异步编程",
+    "content": "JavaScript中的Promise有三种状态：pending、fulfilled和rejected。",
+    "answer": true,
+    "explanation": "Promise 是一个对象，用于表示异步操作的最终完成（或失败）及其结果值。它有三种状态：pending（进行中）、fulfilled（已成功）和rejected（已失败）。",
+    "difficulty": "medium",
+    "category": "javascript"
+  },
+  {
+    "title": "map方法",
+    "type": "true-false",
+    "knowledgePoint": "JavaScript数组",
+    "content": "JavaScript中的map方法会修改原数组。",
+    "answer": false,
+    "explanation": "map 方法创建一个新数组，包含调用函数后的结果，不会修改原数组。",
+    "difficulty": "easy",
+    "category": "javascript"
+  },
+  {
+    "title": "JavaScript闭包",
+    "type": "short-answer",
+    "knowledgePoint": "JavaScript高级概念",
+    "content": "解释JavaScript中的闭包。",
+    "answer": "闭包是一个函数及其词法环境的组合。闭包让你可以从内部函数访问外部函数的作用域，即使外部函数已经执行完毕。",
+    "difficulty": "hard",
+    "category": "javascript"
+  },
+  {
+    "title": "事件冒泡与捕获",
+    "type": "short-answer",
+    "knowledgePoint": "JavaScript DOM",
+    "content": "什么是JavaScript中的事件冒泡和事件捕获？",
+    "answer": "事件冒泡是指事件从最具体的元素（事件的实际目标）开始，然后逐级向上传播到较为不具体的节点（通常是document对象）。事件捕获则是相反的方向，事件从不具体的节点开始捕获，直到最具体的节点。",
+    "difficulty": "medium",
+    "category": "javascript"
+  },
+  {
+    "title": "JavaScript原型链",
+    "type": "short-answer",
+    "knowledgePoint": "JavaScript高级概念",
+    "content": "解释JavaScript中的原型链。",
+    "answer": "原型链是JavaScript中对象继承的一种方式。每个对象都有一个原型对象，对象会从其原型继承属性和方法。通过构建原型链，可以实现复杂的继承关系。",
+    "difficulty": "hard",
+    "category": "javascript"
+  },
+  {
+    "title": "JavaScript Promise",
+    "type": "short-answer",
+    "knowledgePoint": "JavaScript异步编程",
+    "content": "什么是JavaScript中的Promise？",
+    "answer": "Promise 是一个对象，用于表示异步操作的最终完成（或失败）及其结果值。它有三种状态：pending（进行中）、fulfilled（已成功）和rejected（已失败）。",
+    "difficulty": "medium",
+    "category": "javascript"
+  },
+  {
+    "title": "for循环条件",
+    "type": "code-completion",
+    "knowledgePoint": "JavaScript基础",
+    "content": "补全以下JavaScript代码，使其输出1到10的数字。\n```javascript\nfor (let i = 1; ______; i++) {\n  console.log(i);\n}\n```",
+    "answer": "i <= 10",
+    "explanation": "for 循环的条件部分需要确保循环继续执行的条件。",
+    "difficulty": "easy",
+    "category": "javascript"
+  },
+  {
+    "title": "创建Promise对象",
+    "type": "code-completion",
+    "knowledgePoint": "JavaScript异步编程",
+    "content": "补全以下JavaScript代码，使其返回一个Promise。\n```javascript\nfunction fetchData() {\n  return new ______(() => {\n    console.log('Data fetched');\n  });\n}\n```",
+    "answer": "Promise",
+    "explanation": "new Promise() 用于创建一个Promise对象。",
+    "difficulty": "medium",
+    "category": "javascript"
+  },
+  {
+    "title": "计数器实现",
+    "type": "code-completion",
+    "knowledgePoint": "JavaScript基础",
+    "content": "补全以下JavaScript代码，使其实现一个简单的计数器。\n```javascript\nlet count = 0;\nfunction increment() {\n  count = ______;\n}\n```",
+    "answer": "count + 1",
+    "explanation": "计数器函数通过增加count变量来实现。",
+    "difficulty": "easy",
+    "category": "javascript"
+  },
+  {
+    "title": "倒计时功能",
+    "type": "code-completion",
+    "knowledgePoint": "JavaScript定时器",
+    "content": "补全以下JavaScript代码，使其实现一个简单的倒计时功能。\n```javascript\nlet timeLeft = 60;\nconst timer = setInterval(() => {\n  console.log(timeLeft);\n  timeLeft--;\n  if (timeLeft < 0) {\n    ______;\n  }\n}, 1000);\n```",
+    "answer": "clearInterval(timer)",
+    "explanation": "当倒计时结束时，使用clearInterval停止计时器。",
+    "difficulty": "medium",
+    "category": "javascript"
+  },
+  {
+    "title": "事件监听器",
+    "type": "code-completion",
+    "knowledgePoint": "JavaScript DOM",
+    "content": "补全以下JavaScript代码，使其实现一个简单的事件监听器。\n```javascript\nfunction addListener(element, event, handler) {\n  element.______(event, handler);\n}\n```",
+    "answer": "addEventListener",
+    "explanation": "addEventListener 方法用于添加事件监听器。",
+    "difficulty": "easy",
+    "category": "javascript"
+  },
+  {
+    "title": "处理JavaScript异步操作",
+    "type": "interview",
+    "knowledgePoint": "JavaScript异步编程",
+    "content": "如何处理JavaScript中的异步操作？",
+    "answer": "使用callback函数。\n使用Promise对象。\n使用async/await语法糖。",
+    "explanation": "异步操作是JavaScript中的核心概念，这些方法可以帮助开发者更优雅地处理异步逻辑。",
+    "difficulty": "hard",
+    "category": "javascript"
+  },
+  {
+    "title": "JavaScript事件循环",
+    "type": "interview",
+    "knowledgePoint": "JavaScript运行机制",
+    "content": "什么是JavaScript中的事件循环？",
+    "answer": "事件循环是一个不断运行的循环，用于检查调用栈是否为空。如果调用栈为空，事件循环会从任务队列中取出任务并推入调用栈执行。\n事件循环确保了JavaScript的单线程特性，同时允许异步操作（如定时器、回调等）在适当的时机执行。",
+    "explanation": "事件循环是JavaScript运行时的核心机制，确保了异步操作的正确执行。",
+    "difficulty": "hard",
+    "category": "javascript"
+  },
+  {
+    "title": "JavaScript闭包应用",
+    "type": "interview",
+    "knowledgePoint": "JavaScript高级概念",
+    "content": "什么是JavaScript中的闭包？如何使用闭包？",
+    "answer": "闭包是一个函数及其词法环境的组合。闭包让你可以从内部函数访问外部函数的作用域，即使外部函数已经执行完毕。\n使用场景：数据封装、函数式编程、模拟私有变量等。",
+    "explanation": "闭包是JavaScript中一个强大的特性，可以用于多种场景。",
+    "difficulty": "hard",
+    "category": "javascript"
+  }
+] 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" fill="#e44d26"/>
+  <rect width="800" height="450" fill="url(#grad)"/>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e44d26;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f16529;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <text x="400" y="180" font-family="Arial" font-size="72" font-weight="bold" fill="white" text-anchor="middle">HTML5 + CSS3</text>
+  <text x="400" y="260" font-family="Arial" font-size="36" fill="white" text-anchor="middle">前端Web开发基础课程</text>
+  <g fill="white" opacity="0.8">
+    <path d="M200,340 L160,340 L155,290 L205,290 L200,340 Z M197,330 L163,330 L166.5,300 L193.5,300 L197,330 Z" />
+    <path d="M250,290 L290,290 L285,340 L255,340 L250,290 Z M255,300 L283,300 L280,330 L258,330 L255,300 Z" />
+    <path d="M350,290 L350,340 L320,340 L320,325 L335,325 L335,315 L320,315 L320,290 L350,290 Z" />
+  </g>
+</svg> 

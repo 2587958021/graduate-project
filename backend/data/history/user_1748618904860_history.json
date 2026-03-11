@@ -1,0 +1,123 @@
+[
+  {
+    "_id": "history_1748931029392",
+    "exercise": {
+      "_id": "javascript_11",
+      "title": "JavaScript数据类型",
+      "knowledgePoint": "JavaScript基础",
+      "type": "multiple-choice",
+      "category": "javascript"
+    },
+    "userAnswer": [
+      "B",
+      "C"
+    ],
+    "isCorrect": true,
+    "exerciseType": "multiple-choice",
+    "createdAt": "2025-06-03T06:10:29.392Z"
+  },
+  {
+    "_id": "history_1748932357477",
+    "exercise": {
+      "_id": "html_css_2",
+      "title": "CSS固定定位",
+      "knowledgePoint": "CSS定位",
+      "type": "single-choice",
+      "category": "html_css"
+    },
+    "userAnswer": "A",
+    "isCorrect": true,
+    "exerciseType": "single-choice",
+    "createdAt": "2025-06-03T06:32:37.477Z"
+  },
+  {
+    "_id": "history_1748932370747",
+    "exercise": {
+      "_id": "framework_27",
+      "title": "Vue绑定类名",
+      "knowledgePoint": "Vue绑定",
+      "type": "code-completion",
+      "category": "framework"
+    },
+    "userAnswer": "v-bind:class",
+    "isCorrect": true,
+    "exerciseType": "code-completion",
+    "createdAt": "2025-06-03T06:32:50.747Z"
+  },
+  {
+    "_id": "history_1748932376790",
+    "exercise": {
+      "_id": "html_css_12",
+      "title": "水平居中CSS",
+      "knowledgePoint": "CSS布局技巧",
+      "type": "code-completion",
+      "category": "html_css"
+    },
+    "userAnswer": "margin: 0 auto;",
+    "isCorrect": true,
+    "exerciseType": "code-completion",
+    "createdAt": "2025-06-03T06:32:56.790Z"
+  },
+  {
+    "_id": "history_1748932381668",
+    "exercise": {
+      "_id": "html_css_6",
+      "title": "CSS响应式设计属性",
+      "knowledgePoint": "响应式设计",
+      "type": "multiple-choice",
+      "category": "html_css"
+    },
+    "userAnswer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "isCorrect": true,
+    "exerciseType": "multiple-choice",
+    "createdAt": "2025-06-03T06:33:01.668Z"
+  },
+  {
+    "_id": "history_1748932386250",
+    "exercise": {
+      "_id": "framework_1",
+      "title": "Vue条件渲染指令",
+      "knowledgePoint": "Vue基础",
+      "type": "single-choice",
+      "category": "framework"
+    },
+    "userAnswer": "B",
+    "isCorrect": true,
+    "exerciseType": "single-choice",
+    "createdAt": "2025-06-03T06:33:06.250Z"
+  },
+  {
+    "_id": "history_1748932390123",
+    "exercise": {
+      "_id": "javascript_5",
+      "title": "JavaScript闭包",
+      "knowledgePoint": "JavaScript高级特性",
+      "type": "single-choice",
+      "category": "javascript"
+    },
+    "userAnswer": "C",
+    "isCorrect": false,
+    "exerciseType": "single-choice",
+    "createdAt": "2025-06-03T06:33:10.123Z"
+  },
+  {
+    "_id": "history_1748932395456",
+    "exercise": {
+      "_id": "framework_15",
+      "title": "React状态管理",
+      "knowledgePoint": "React基础",
+      "type": "multiple-choice",
+      "category": "framework"
+    },
+    "userAnswer": [
+      "A"
+    ],
+    "isCorrect": false,
+    "exerciseType": "multiple-choice",
+    "createdAt": "2025-06-03T06:33:15.456Z"
+  }
+]

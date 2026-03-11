@@ -1,0 +1,41 @@
+[
+  {
+    "_id": "course_1748705264157",
+    "title": "尚硅谷Vue2.0+Vue3.0全套教程丨vuejs从入门到精通",
+    "description": "【配套资料】关注公众号：尚硅谷教育，回复“视频资料”免费获取\n【课程简介】全网最牛最火VUE播放破1000万，禹神前端讲师第一人！\n【重磅推荐】VUE3+TS项目《硅谷甄选》最新发布：BV1Xh411V7b5",
+    "category": "vue",
+    "level": "高级",
+    "tags": [],
+    "coverImage": "http://i2.hdslb.com/bfs/archive/120686ca-18a1fed2c41.jpeg",
+    "isPublished": true,
+    "createdAt": "2025-05-31T15:27:44.158Z",
+    "chapters": [
+      {
+        "_id": "chapter-1",
+        "title": "第一章",
+        "description": "自动从B站视频创建的章节",
+        "order": 1,
+        "lessons": [
+          {
+            "_id": "lesson-1-1",
+            "description": "第1课时",
+            "bvid": "BV1Zy4y1K7SH",
+            "page": 1,
+            "order": 1,
+            "duration": 144,
+            "embedCode": "<div class=\"video-link-container\"><a href=\"https://www.bilibili.com/video/BV1Zy4y1K7SH?p=1\" target=\"_blank\" class=\"video-link\">在B站观看视频 <i class=\"bi bi-box-arrow-up-right\"></i></a></div>"
+          },
+          {
+            "_id": "lesson-1-2",
+            "description": "第2课时",
+            "bvid": "BV1Zy4y1K7SH",
+            "page": 2,
+            "order": 2,
+            "duration": 1079,
+            "embedCode": "<div class=\"video-link-container\"><a href=\"https://www.bilibili.com/video/BV1Zy4y1K7SH?p=2\" target=\"_blank\" class=\"video-link\">在B站观看视频 <i class=\"bi bi-box-arrow-up-right\"></i></a></div>"
+          }
+        ]
+      }
+    ]
+  }
+]

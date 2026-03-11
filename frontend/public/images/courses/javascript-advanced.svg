@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" fill="#f7df1e"/>
+  <rect width="800" height="450" fill="url(#grad)"/>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f7df1e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#efd81d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <text x="400" y="180" font-family="Arial" font-size="72" font-weight="bold" fill="#333" text-anchor="middle">JavaScript</text>
+  <text x="400" y="260" font-family="Arial" font-size="36" fill="#333" text-anchor="middle">核心与进阶教程</text>
+  <g fill="#333" opacity="0.8">
+    <path d="M330,290 L330,340 L280,340 L280,330 L320,330 L320,315 L280,315 L280,290 L330,290 Z" />
+    <path d="M380,290 L380,340 L350,340 L350,290 L380,290 Z" />
+    <path d="M430,290 L430,340 L400,340 L400,330 L420,330 L420,315 L400,315 L400,290 L430,290 Z" />
+  </g>
+</svg> 

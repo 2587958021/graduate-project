@@ -1,0 +1,503 @@
+[
+  {
+    "_id": "mistake_1748939464310_dymcsmogx",
+    "exerciseId": "javascript_11",
+    "userAnswer": [
+      "D"
+    ],
+    "exerciseType": "multiple-choice",
+    "knowledgePoint": "JavaScript基础",
+    "title": "JavaScript数据类型",
+    "content": "",
+    "options": [],
+    "note": "自动添加的错题",
+    "createdAt": "2025-06-03T08:31:04.310Z",
+    "updatedAt": "2025-06-11T17:08:13.206Z",
+    "count": 2,
+    "correctAnswer": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "_id": "mistake_1748939464312_ipd2a3ilv",
+    "exerciseId": "html_css_2",
+    "userAnswer": "A",
+    "exerciseType": "single-choice",
+    "knowledgePoint": "CSS定位",
+    "title": "CSS固定定位",
+    "content": "",
+    "options": [],
+    "note": "从历史记录同步的错题",
+    "createdAt": "2025-06-03T08:31:04.312Z",
+    "updatedAt": "2025-06-03T08:31:04.312Z",
+    "count": 1
+  },
+  {
+    "_id": "mistake_1748939464312_zeeuo2a1g",
+    "exerciseId": "framework_27",
+    "userAnswer": "阿帮忙",
+    "exerciseType": "code-completion",
+    "knowledgePoint": "Vue绑定",
+    "title": "Vue绑定类名",
+    "content": "",
+    "options": [],
+    "note": "从历史记录同步的错题",
+    "createdAt": "2025-06-03T08:31:04.312Z",
+    "updatedAt": "2025-06-03T08:31:04.312Z",
+    "count": 1
+  },
+  {
+    "_id": "mistake_1748939464312_4g4ebwz4d",
+    "exerciseId": "html_css_12",
+    "userAnswer": "谁DVDv",
+    "exerciseType": "code-completion",
+    "knowledgePoint": "CSS布局技巧",
+    "title": "水平居中CSS",
+    "content": "",
+    "options": [],
+    "note": "从历史记录同步的错题",
+    "createdAt": "2025-06-03T08:31:04.312Z",
+    "updatedAt": "2025-06-03T08:31:04.312Z",
+    "count": 1
+  },
+  {
+    "_id": "mistake_1748939464312_1buhboe1v",
+    "exerciseId": "html_css_6",
+    "userAnswer": [
+      "D"
+    ],
+    "exerciseType": "multiple-choice",
+    "knowledgePoint": "响应式设计",
+    "title": "CSS响应式设计属性",
+    "content": "",
+    "options": [],
+    "note": "从历史记录同步的错题",
+    "createdAt": "2025-06-03T08:31:04.312Z",
+    "updatedAt": "2025-06-03T08:31:04.312Z",
+    "count": 1
+  },
+  {
+    "_id": "mistake_1748939464312_40ucxgsx8",
+    "exerciseId": "framework_1",
+    "userAnswer": "C",
+    "exerciseType": "single-choice",
+    "knowledgePoint": "Vue基础",
+    "title": "Vue条件渲染指令",
+    "content": "",
+    "options": [],
+    "note": "从历史记录同步的错题",
+    "createdAt": "2025-06-03T08:31:04.312Z",
+    "updatedAt": "2025-06-03T08:31:04.312Z",
+    "count": 1
+  },
+  {
+    "_id": "mistake_1749661314190",
+    "exerciseId": "framework_13",
+    "userAnswer": [
+      "D"
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "exerciseType": "multiple-choice",
+    "knowledgePoint": "Vue响应式系统",
+    "content": "以下哪些是Vue中的响应式数据？",
+    "title": "Vue响应式数据",
+    "options": [
+      {
+        "id": "A",
+        "text": "data"
+      },
+      {
+        "id": "B",
+        "text": "props"
+      },
+      {
+        "id": "C",
+        "text": "computed"
+      },
+      {
+        "id": "D",
+        "text": "methods"
+      }
+    ],
+    "note": "自动添加的错题",
+    "createdAt": "2025-06-11T17:01:54.190Z",
+    "updatedAt": "2025-06-11T17:01:54.190Z",
+    "count": 1
+  },
+  {
+    "_id": "mistake_1749661641995",
+    "exerciseId": "javascript_2",
+    "userAnswer": "C",
+    "correctAnswer": "B",
+    "exerciseType": "single-choice",
+    "knowledgePoint": "JavaScript基础",
+    "content": "typeof null 的返回值是什么？",
+    "title": "typeof null",
+    "options": [
+      {
+        "id": "A",
+        "text": "null"
+      },
+      {
+        "id": "B",
+        "text": "object"
+      },
+      {
+        "id": "C",
+        "text": "undefined"
+      },
+      {
+        "id": "D",
+        "text": "string"
+      }
+    ],
+    "note": "自动添加的错题",
+    "createdAt": "2025-06-11T17:07:21.994Z",
+    "updatedAt": "2025-06-12T04:54:02.996Z",
+    "count": 2
+  },
+  {
+    "_id": "mistake_1749661676565",
+    "exerciseId": "html_css_7",
+    "userAnswer": false,
+    "correctAnswer": true,
+    "exerciseType": "true-false",
+    "knowledgePoint": "CSS定位",
+    "content": "CSS中的`position: absolute;`会将元素相对于最近的已定位祖先元素定位。",
+    "title": "CSS绝对定位参考点",
+    "options": [],
+    "note": "自动添加的错题",
+    "createdAt": "2025-06-11T17:07:56.565Z",
+    "updatedAt": "2025-06-11T17:07:56.565Z",
+    "count": 1
+  },
+  {
+    "_id": "mistake_1749697527408",
+    "exerciseId": "javascript_9",
+    "userAnswer": "B",
+    "correctAnswer": "A",
+    "exerciseType": "single-choice",
+    "knowledgePoint": "JavaScript对象",
+    "content": "以下哪个方法用于在JavaScript中检查对象是否具有某个属性？",
+    "title": "检查对象属性",
+    "options": [
+      {
+        "id": "A",
+        "text": "hasOwnProperty()"
+      },
+      {
+        "id": "B",
+        "text": "hasProperty()"
+      },
+      {
+        "id": "C",
+        "text": "checkProperty()"
+      },
+      {
+        "id": "D",
+        "text": "propertyExists()"
+      }
+    ],
+    "note": "自动添加的错题",
+    "createdAt": "2025-06-12T03:05:27.407Z",
+    "updatedAt": "2025-06-12T03:05:27.407Z",
+    "count": 1
+  },
+  {
+    "_id": "mistake_1749697816198",
+    "exerciseId": "javascript_4",
+    "userAnswer": "C",
+    "correctAnswer": "A",
+    "exerciseType": "single-choice",
+    "knowledgePoint": "JavaScript Date对象",
+    "content": "以下哪个方法用于在JavaScript中获取当前时间戳？",
+    "title": "获取时间戳",
+    "options": [
+      {
+        "id": "A",
+        "text": "Date.now()"
+      },
+      {
+        "id": "B",
+        "text": "Date.getTime()"
+      },
+      {
+        "id": "C",
+        "text": "Date.current()"
+      },
+      {
+        "id": "D",
+        "text": "Date.timestamp()"
+      }
+    ],
+    "note": "自动添加的错题",
+    "createdAt": "2025-06-12T03:10:16.198Z",
+    "updatedAt": "2025-06-12T03:10:16.198Z",
+    "count": 1
+  },
+  {
+    "_id": "mistake_1749697841288",
+    "exerciseId": "framework_24",
+    "userAnswer": "ugugu",
+    "correctAnswer": "useState 用于在函数组件中声明状态变量，而 useEffect 用于处理副作用操作，如数据获取、订阅等。",
+    "exerciseType": "short-answer",
+    "knowledgePoint": "React Hooks",
+    "content": "解释React中的useState和useEffect的区别。",
+    "title": "React useState和useEffect区别",
+    "options": [],
+    "note": "自动添加的错题",
+    "createdAt": "2025-06-12T03:10:41.288Z",
+    "updatedAt": "2025-06-12T03:10:41.288Z",
+    "count": 1
+  },
+  {
+    "_id": "mistake_1749702161264",
+    "exerciseId": "javascript_1",
+    "userAnswer": "D",
+    "correctAnswer": "A",
+    "exerciseType": "single-choice",
+    "knowledgePoint": "JavaScript DOM",
+    "content": "以下哪个方法用于在JavaScript中添加事件监听器？",
+    "title": "JavaScript事件监听器",
+    "options": [
+      {
+        "id": "A",
+        "text": "addEventListener()"
+      },
+      {
+        "id": "B",
+        "text": "attachEvent()"
+      },
+      {
+        "id": "C",
+        "text": "onEvent()"
+      },
+      {
+        "id": "D",
+        "text": "bind()"
+      }
+    ],
+    "note": "自动添加的错题",
+    "createdAt": "2025-06-12T04:22:41.263Z",
+    "updatedAt": "2025-06-12T04:22:41.263Z",
+    "count": 1
+  },
+  {
+    "_id": "mistake_1749703746235",
+    "exerciseId": "javascript_12",
+    "userAnswer": [
+      "D"
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "exerciseType": "multiple-choice",
+    "knowledgePoint": "JavaScript数组",
+    "content": "以下哪些方法可以用于数组操作？",
+    "title": "数组操作方法",
+    "options": [
+      {
+        "id": "A",
+        "text": "push()"
+      },
+      {
+        "id": "B",
+        "text": "pop()"
+      },
+      {
+        "id": "C",
+        "text": "shift()"
+      },
+      {
+        "id": "D",
+        "text": "unshift()"
+      }
+    ],
+    "note": "自动添加的错题",
+    "createdAt": "2025-06-12T04:49:06.234Z",
+    "updatedAt": "2025-06-12T04:49:06.234Z",
+    "count": 1
+  },
+  {
+    "_id": "mistake_1749704300339",
+    "exerciseId": "html_css_13",
+    "userAnswer": "jjb",
+    "correctAnswer": "flex",
+    "exerciseType": "code-completion",
+    "knowledgePoint": "CSS布局技巧",
+    "content": "补全以下CSS代码，使元素垂直居中。\n```css\n.container {\n  display: ______;\n  justify-content: center;\n  align-items: center;\n}\n```",
+    "title": "垂直居中CSS",
+    "options": [],
+    "note": "自动添加的错题",
+    "createdAt": "2025-06-12T04:58:20.339Z",
+    "updatedAt": "2025-06-12T04:58:20.339Z",
+    "count": 1
+  },
+  {
+    "_id": "mistake_1749705328024",
+    "exerciseId": "framework_12",
+    "userAnswer": [
+      "D"
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "exerciseType": "multiple-choice",
+    "knowledgePoint": "Vue生命周期",
+    "content": "以下哪些是Vue中的生命周期钩子？",
+    "title": "Vue生命周期钩子",
+    "options": [
+      {
+        "id": "A",
+        "text": "created"
+      },
+      {
+        "id": "B",
+        "text": "mounted"
+      },
+      {
+        "id": "C",
+        "text": "updated"
+      },
+      {
+        "id": "D",
+        "text": "destroyed"
+      }
+    ],
+    "note": "自动添加的错题",
+    "createdAt": "2025-06-12T05:15:28.024Z",
+    "updatedAt": "2025-06-12T05:15:28.024Z",
+    "count": 1
+  },
+  {
+    "_id": "mistake_1749705718444",
+    "exerciseId": "framework_6",
+    "userAnswer": "D",
+    "correctAnswer": "B",
+    "exerciseType": "single-choice",
+    "knowledgePoint": "React生命周期",
+    "content": "在React中，以下哪个方法用于组件卸载时的清理工作？",
+    "title": "React卸载组件方法",
+    "options": [
+      {
+        "id": "A",
+        "text": "componentDidMount"
+      },
+      {
+        "id": "B",
+        "text": "componentWillUnmount"
+      },
+      {
+        "id": "C",
+        "text": "componentDidUpdate"
+      },
+      {
+        "id": "D",
+        "text": "componentWillReceiveProps"
+      }
+    ],
+    "note": "自动添加的错题",
+    "createdAt": "2025-06-12T05:21:58.443Z",
+    "updatedAt": "2025-06-12T05:21:58.443Z",
+    "count": 1
+  },
+  {
+    "_id": "mistake_1749705764531",
+    "exerciseId": "html_css_1",
+    "userAnswer": "D",
+    "correctAnswer": "B",
+    "exerciseType": "single-choice",
+    "knowledgePoint": "HTML基础标签",
+    "content": "以下哪个HTML标签用于创建一个无序列表？",
+    "title": "HTML无序列表",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ol>"
+      },
+      {
+        "id": "B",
+        "text": "<ul>"
+      },
+      {
+        "id": "C",
+        "text": "<dl>"
+      },
+      {
+        "id": "D",
+        "text": "<li>"
+      }
+    ],
+    "note": "自动添加的错题",
+    "createdAt": "2025-06-12T05:22:44.531Z",
+    "updatedAt": "2025-06-12T05:22:44.531Z",
+    "count": 1
+  },
+  {
+    "_id": "mistake_1749777438208",
+    "exerciseId": "javascript_14",
+    "userAnswer": [
+      "C"
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "exerciseType": "multiple-choice",
+    "knowledgePoint": "JavaScript对象",
+    "content": "以下哪些方法可以用于对象属性的遍历？",
+    "title": "对象遍历方法",
+    "options": [
+      {
+        "id": "A",
+        "text": "for...in"
+      },
+      {
+        "id": "B",
+        "text": "Object.keys()"
+      },
+      {
+        "id": "C",
+        "text": "Object.values()"
+      },
+      {
+        "id": "D",
+        "text": "forEach()"
+      }
+    ],
+    "note": "自动添加的错题",
+    "createdAt": "2025-06-13T01:17:18.208Z",
+    "updatedAt": "2025-06-13T01:17:18.208Z",
+    "count": 1
+  },
+  {
+    "_id": "mistake_1751798629171",
+    "exerciseId": "html_css_9",
+    "userAnswer": false,
+    "correctAnswer": true,
+    "exerciseType": "true-false",
+    "knowledgePoint": "CSS布局技巧",
+    "content": "CSS中的`flex`布局可以用于创建响应式设计。",
+    "title": "CSS弹性布局响应式",
+    "options": [],
+    "note": "自动添加的错题",
+    "createdAt": "2025-07-06T10:43:49.171Z",
+    "updatedAt": "2025-07-06T10:43:49.171Z",
+    "count": 1
+  }
+]

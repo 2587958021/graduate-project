@@ -1,0 +1,41 @@
+[
+  {
+    "_id": "course_1748705394285",
+    "title": "尚硅谷React教程（已加更新版内容，B站最火）",
+    "description": "【配套资料】关注公众号：尚硅谷教育，回复“视频资料”免费获取\n【课程简介】本套视频教程基于新版React17录制，对React开发中的各项核心技术进行了详细讲解。核心React基础知识+周边技术一网打尽！\n所有知识点都以案例为驱动，演绎式教学，生活化举例，保姆式解读官网，授之以渔更授之以渔！讲解细致，幽默风趣，让你听着上头，学到痴迷。即便零基础的小伙伴也可以愉快地学会React技术！",
+    "category": "react",
+    "level": "高级",
+    "tags": [],
+    "coverImage": "http://i0.hdslb.com/bfs/archive/3086cba16f49bec40a765e2320436b3b18b0bc86.jpg",
+    "isPublished": true,
+    "createdAt": "2025-05-31T15:29:54.285Z",
+    "chapters": [
+      {
+        "_id": "chapter-1",
+        "title": "第一章",
+        "description": "自动从B站视频创建的章节",
+        "order": 1,
+        "lessons": [
+          {
+            "_id": "lesson-1-1",
+            "description": "第1课时",
+            "bvid": "BV1wy4y1D7JT",
+            "page": 1,
+            "order": 1,
+            "duration": 1636,
+            "embedCode": "<div class=\"video-link-container\"><a href=\"https://www.bilibili.com/video/BV1wy4y1D7JT?p=1\" target=\"_blank\" class=\"video-link\">在B站观看视频 <i class=\"bi bi-box-arrow-up-right\"></i></a></div>"
+          },
+          {
+            "_id": "lesson-1-2",
+            "description": "第2课时",
+            "bvid": "BV1wy4y1D7JT",
+            "page": 2,
+            "order": 2,
+            "duration": 1555,
+            "embedCode": "<div class=\"video-link-container\"><a href=\"https://www.bilibili.com/video/BV1wy4y1D7JT?p=2\" target=\"_blank\" class=\"video-link\">在B站观看视频 <i class=\"bi bi-box-arrow-up-right\"></i></a></div>"
+          }
+        ]
+      }
+    ]
+  }
+]
